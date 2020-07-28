@@ -38,5 +38,6 @@ class String
     binding.pry
     
     self.split(/[.?!]/)
+    self.count
   end
 end
