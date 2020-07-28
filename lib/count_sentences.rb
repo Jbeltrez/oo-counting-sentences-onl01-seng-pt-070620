@@ -23,6 +23,12 @@ class String
   end
 
   def exclamation?
+    #this instance method should use the self keyowrd to refer to the stirng on which it is being called. THis method should return true if a string ends with an exclamation mark and false if it does not. 
+    if self.end_with?("!")
+      true 
+    else 
+      false 
+    end 
 
   end
 
