@@ -36,6 +36,6 @@ class String
     #this method on a string should give us a count on the number of sentences in that string 
     #should use the self keyword to refer to the string on which it is called. 
     binding.pry
-    self.split([".","?", "!"])
+    self.split(".","?", "!")
   end
 end
