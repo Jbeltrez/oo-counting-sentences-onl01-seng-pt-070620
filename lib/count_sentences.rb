@@ -38,7 +38,7 @@ class String
 
     
     self.split(/[.?!]/).count
-    self.chomp
+    
     
     
     
