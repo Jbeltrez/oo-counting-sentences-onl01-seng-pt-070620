@@ -14,7 +14,12 @@ class String
   end
 
   def question?
-
+  #this method should use the self keyord to refer to the string on which it is being called. This metho should return true if a string ends with a question mark and false if it does not. 
+    if self.end_with?("?")
+      true 
+    else 
+      false 
+    end 
   end
 
   def exclamation?
