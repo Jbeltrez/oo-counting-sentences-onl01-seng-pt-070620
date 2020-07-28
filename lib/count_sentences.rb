@@ -37,7 +37,8 @@ class String
     #should use the self keyword to refer to the string on which it is called. 
 
     binding.pry
-    self.split(/[.?!]/).count
+    self.split(/[.?!]/).count.chomp
+    
     
     
   end
