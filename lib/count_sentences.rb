@@ -37,7 +37,7 @@ class String
     #should use the self keyword to refer to the string on which it is called. 
 
     
-    self.split(/[.?!]/).count
+    self.split(/[.?!]/).rejectcount
     
     
     
